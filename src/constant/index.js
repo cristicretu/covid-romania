@@ -30,4 +30,11 @@ const labelColor = [
 	'text-gray-500',
 ];
 
-export { labelColor, report };
+const bgColor = [
+	'hover:bg-red-600',
+	'hover:bg-blue-600',
+	'hover:bg-green-700',
+	'hover:bg-gray-500',
+];
+
+export { labelColor, report, bgColor };
