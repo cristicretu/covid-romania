@@ -1,9 +1,11 @@
-import React from 'react';
+import Navbar from './components/Navbar.js';
+import ListOfStat from './components/ListOfStat.js';
 
 export default function App() {
 	return (
-		<div>
-			<h1>Hello world</h1>
+		<div class="font-lexend bg-gray-900 min-h-screen">
+			<Navbar />
+			<ListOfStat />
 		</div>
 	);
 }

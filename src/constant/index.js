@@ -1,21 +1,22 @@
 const report = {
 	casese: [
 		{
-			label: 'Total Cases',
+			label: 'Confirmed',
 			value: 1220,
+			delta: 22,
 		},
 		{
-			label: 'active',
+			label: 'Active',
 			value: 1100,
 			delta: 78,
 		},
 		{
-			label: 'Death',
+			label: 'Recovered',
 			value: 4,
 			delta: 1,
 		},
 		{
-			label: 'Recovered',
+			label: 'Deceased',
 			value: 100,
 			delta: 20,
 		},
@@ -23,10 +24,10 @@ const report = {
 };
 
 const labelColor = [
-	'text-yellow-300',
-	'text-green-300',
-	'text-red-400',
-	'text-blue-300',
+	'text-red-600',
+	'text-blue-600',
+	'text-green-700',
+	'text-gray-500',
 ];
 
 export { labelColor, report };
