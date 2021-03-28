@@ -31,10 +31,10 @@ const labelColor = [
 ];
 
 const bgColor = [
-	'hover:bg-red-600',
-	'hover:bg-blue-600',
-	'hover:bg-green-700',
-	'hover:bg-gray-500',
+	'transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 h-15 w-15 items-center p-2 flex bg-gray-800 bg-opacity-50 hover:bg-red-700 hover:bg-opacity-30 rounded',
+	'transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 h-15 w-15 items-center p-2 flex bg-gray-800 bg-opacity-50 hover:bg-blue-700 hover:bg-opacity-30 rounded',
+	'transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 h-15 w-15 items-center p-2 flex bg-gray-800 bg-opacity-50 hover:bg-green-800 hover:bg-opacity-30 rounded',
+	'transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 h-15 w-15 items-center p-2 flex bg-gray-800 bg-opacity-50 hover:bg-gray-600 hover:bg-opacity-30 rounded ',
 ];
 
 export { labelColor, report, bgColor };
