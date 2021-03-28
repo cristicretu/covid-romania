@@ -1,1 +1,4 @@
-# covid-romania
+```sh
+yarn install
+yarn start
+```
