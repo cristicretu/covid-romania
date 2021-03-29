@@ -1,6 +1,8 @@
 import React from 'react'
 import { report, labelColor, bgColor } from '../constant/index.js';
 import StatCard from './StatCard.js'
+import { fetchData } from '../constant';
+
 
 export default function ListOfStat() {
   return (

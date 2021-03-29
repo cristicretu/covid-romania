@@ -1,23 +1,43 @@
+import { data } from 'autoprefixer';
+import axios from 'axios';
+
+const url = 'https://api.apify.com/v2/key-value-stores/KUlj8EGfDGHiB0gU1/records/LATEST?disableRedirect=true';
+
+export const fetchData = async () => {
+	try {
+		// const response = await axios.get(url);
+
+		// console.log(response);
+
+		const { data: { infected, recovered, deceased, lastUpdatedAtSource } } = await axios.get(url);
+
+		return { infected, recovered, deceased, lastUpdatedAtSource };
+
+	} catch (error) {
+
+	}
+}
+
 const report = {
 	casese: [
 		{
 			label: 'Confirmed',
-			value: 1220,
+			value: 120,
 			delta: 22,
 		},
 		{
 			label: 'Active',
-			value: 1100,
+			value: 120,
 			delta: 78,
 		},
 		{
 			label: 'Recovered',
-			value: 4,
+			value: 1,
 			delta: 1,
 		},
 		{
 			label: 'Deceased',
-			value: 100,
+			value: 1,
 			delta: 20,
 		},
 		{
